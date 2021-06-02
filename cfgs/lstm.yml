@@ -1,0 +1,7 @@
+model: LSTM
+# for specific
+s_lstm_hidden_dim: 200
+s_bidirectional: True
+s_pre_classifier_dim: 50
+s_dropout: 50
+s_embed_dim: 900

@@ -1,0 +1,12 @@
+model: CoES
+# for pretrain
+embed_dim: 300
+gru_layer1_hidden_dim: 300
+gru_layer2_hidden_dim: 300
+bidirectional: True
+pre_classifier_dim: 50
+dropout: 0.5
+noise_ratio: 500
+norm_term: -1
+
+
